@@ -1,5 +1,4 @@
-# Week 1 Lab Report
-### Luke Henry
+# Week 1 Lab Report - Luke Henry
 ***
 
 ## Installing Visual Studio Code
