@@ -9,6 +9,8 @@ Follow [This Link](https://code.visualstudio.com/) and download the appropriate 
 
 Open the terminal. You'll be using it to remotely connect and run commands.
 
+![Screenshot of VS Code Terminal](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/VS_CodeTerminal.png)
+
 ## Remotely Connecting
 This is how to remontely connect
 
