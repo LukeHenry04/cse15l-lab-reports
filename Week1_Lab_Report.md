@@ -46,7 +46,7 @@ Finally, you can log out with the command `exit`:
 
 You can also run these commands locally on your own computer. For example, after logging out, running `pwd` will show the current working directory as a folder on your computer. You can use `cd Documents` for example, to change your working directory to your documents folder and `ls` to list its contents:
 
-![Image of local commands](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/VS_CommandLocal.png)
+![Image of local commands](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/VS_CommandLOCAL.png)
 
 
 
