@@ -28,4 +28,12 @@ Next enter your password. If you are successfully connected, your terminal will 
 ![Successful login terminal image](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/VS_RemoteLoginSuccess.png)
 
 ## Running Commands
-This is commands that you can run
+Once you're connected, you can begin to run some commands.
+
+The command `pwd` stands for "**Print Working Directory**". Running it will tell you what directory you are currently working in. 
+
+To change the current working directory, you can use the `cd` command followed by an aboslute or relative path. (`cd` stands for Chage Directory.) For example, `cd ..` will change the working directory to the parent directory.
+
+The command `ls` lists the contents of the working directory.
+
+
