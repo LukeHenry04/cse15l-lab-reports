@@ -19,5 +19,7 @@ Once git is installed, open the Visual Studio Code terminal and open a **git bas
 
 ![Screenshot of git bash terminal](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/VS_GitBash.png)
 
+Next run run the command `$ ssh cs15lwi23zz@ieng6.ucsd.edu`, repacing '**zz**' with the last letters of your course username:
+
 ## Running Commands
 This is commands that you can run
