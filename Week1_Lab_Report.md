@@ -21,5 +21,11 @@ Once git is installed, open the Visual Studio Code terminal and open a **git bas
 
 Next run run the command `$ ssh cs15lwi23zz@ieng6.ucsd.edu`, repacing '**zz**' with the last letters of your course username:
 
+![image](placeholder)
+
+Next enter your password. If you are successfully connected, your terminal will show similar text to the image below:
+
+![image](placeholder)
+
 ## Running Commands
 This is commands that you can run
