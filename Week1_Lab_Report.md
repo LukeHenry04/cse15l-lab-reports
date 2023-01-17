@@ -32,8 +32,13 @@ Once you're connected, you can begin to run some commands.
 
 The command `pwd` stands for "**Print Working Directory**". Running it will tell you what directory you are currently working in. 
 
+![Image of pwd command](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/VS_CommandPWD.png)
+
 To change the current working directory, you can use the `cd` command followed by an aboslute or relative path. (`cd` stands for "**Chage Directory**".) For example, `cd ..` will change the working directory to the parent directory.
 
-The command `ls` lists the contents of the working directory.
+The command `ls`, for "**list**", lists the contents of the working directory.
+
+![Image of cd and ls commands](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/VS_CommandCD_LS.png)
+
 
 
