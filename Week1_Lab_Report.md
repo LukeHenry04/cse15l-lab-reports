@@ -1,5 +1,5 @@
 # Week 1 Lab Report - Luke Henry
-Contents:
+**Contents:**
 - [Installing Visual Studio Code](https://lukehenry04.github.io/cse15l-lab-reports/Week1_Lab_Report.html?#installing-visual-studio-code)
 - [Remotely Connecting](https://lukehenry04.github.io/cse15l-lab-reports/Week1_Lab_Report.html?#remotely-connecting)
 - [Running Commands](https://lukehenry04.github.io/cse15l-lab-reports/Week1_Lab_Report.html?#running-commands)
