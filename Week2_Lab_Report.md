@@ -50,7 +50,7 @@ The path `/add-message?s=Hello` adds 'Hello' to the string:
 
 ![Hello Image](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/Hello.png)
 
-Then, using the path `/add-message?s=How are you` adds 'how are you' to the string:
+Then, using the path `/add-message?s=How are you` adds 'how are you' to the string with a new line:
 
 ![How Are You Image](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/HowAreYou.png)
 
