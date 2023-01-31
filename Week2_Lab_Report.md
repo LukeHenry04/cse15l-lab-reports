@@ -41,7 +41,9 @@ class StringServer {
         Server.start(port, new StringHandler());
     }
 }
+
 ***
+
 ```
 
 The path `/add-message?s=Hello` adds 'Hello' to the string:
