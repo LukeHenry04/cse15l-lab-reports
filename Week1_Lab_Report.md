@@ -9,7 +9,7 @@
 ## Installing Visual Studio Code
 The first step for remote access is to install Visual Studio Code.
 
-Go to **https://code.visualstudio.com** and download the appropriate version of VS Code for your operating system. Run the installer and follow the setup intructions. Open Visual Studio Code. Your window should look like this:
+Go to **[Visual Studio Code](https://code.visualstudio.com)** and download the appropriate version of VS Code for your operating system. Run the installer and follow the setup intructions. Open Visual Studio Code. Your window should look like this:
 
 ![Screenshot of VS Code window](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/VS_Code.png)
 
