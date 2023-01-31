@@ -46,6 +46,14 @@ class StringServer {
 }
 ```
 
+The path `/add-message?s=Hello` adds 'Hello' to the string:
+
+![image](link)
+
+Then, using the path `/add-message?s=How are you` adds 'how are you' to the string:
+
+![image](link)
+
 ## Part 2 - Debugging and Testing Code
 
 ## Part 3 - What I Learned
