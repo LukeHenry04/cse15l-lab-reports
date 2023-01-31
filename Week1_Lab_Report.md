@@ -30,7 +30,18 @@ Next run run the command `$ ssh cs15lwi23zz@ieng6.ucsd.edu`, repacing '**zz**' w
 
 ![Terminal login command image](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/VS_RemoteLogin.png)
 
-Next enter your password. If you are successfully connected, your terminal will show similar text to the image below:
+Next enter your password. 
+
+You may recieve the confiration message below:
+```
+⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
+The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+```
+If this is your first time logging in, you will need to type yes to connect.
+
+If you are successfully connected, your terminal will show similar text to the image below:
 
 ![Successful login terminal image](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/VS_RemoteLoginSuccess.png)
 
