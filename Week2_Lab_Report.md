@@ -48,11 +48,11 @@ class StringServer {
 
 The path `/add-message?s=Hello` adds 'Hello' to the string:
 
-![image](link)
+![Hello Image](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/Hello.png)
 
 Then, using the path `/add-message?s=How are you` adds 'how are you' to the string:
 
-![image](link)
+![How Are You Image](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/HowAreYou.png)
 
 ## Part 2 - Debugging and Testing Code
 
