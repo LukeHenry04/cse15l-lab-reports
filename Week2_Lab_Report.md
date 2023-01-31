@@ -76,4 +76,7 @@ The result is two lines, with "Hello" and "How are you".
 
 ## Part 2 - Debugging and Testing Code
 
+The program `ArrayExamples.java` contained bugs in the `int[] reversed(int[] arr)` method.
+
+
 ## Part 3 - What I Learned
