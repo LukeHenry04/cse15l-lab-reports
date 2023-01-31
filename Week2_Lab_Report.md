@@ -130,4 +130,4 @@ After fixing the bug, the code is now:
 
 ## Part 3 - What I Learned
 
-One important thing I learned in lab during week 2 was how URLs are stuctured and used when running web servers. For example, in the url `google.com/search?q=searchTerm`, `google.com` is called the **domain**, `/search` is called the **path**, and `?q=searchTerm` is called the **query**. A web server can use the path and query to preform specific functions. 
+One important thing I learned in lab during week 2 was how URLs are stuctured and used when running web servers. For example, in the url `google.com/search?q=searchTerm`, `google.com` is called the **domain**, `/search` is called the **path**, and `?q=searchTerm` is called the **query**. A web server can use the path and query to preform specific functions, such as the numberSever and searchServer in lab, which used specific paths and queries to alter or search through data in the server. 
