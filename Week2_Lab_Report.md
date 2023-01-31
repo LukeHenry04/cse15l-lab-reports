@@ -41,7 +41,6 @@ class StringServer {
         Server.start(port, new StringHandler());
     }
 }
-
 ```
 
 ***
@@ -75,6 +74,8 @@ The method `handleRequest(URI url)` is called again, with url now containing the
 The string `"How are you"` followed by a new line character `'\n'` is then added to the main string `text` containing `"Hello"+'\n'`.
 
 The result is two lines, with "Hello" and "How are you".
+
+***
 
 ## Part 2 - Debugging and Testing Code
 
