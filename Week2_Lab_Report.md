@@ -55,6 +55,8 @@ If the path contains `/add-message`, which it does in this case, the method `url
 
 The string `s=Hello` is then split into the strings `s` and `Hello` using the method `.split("=")` and stored as elements 0 and 1 of the array `parameters`
 
+`Hello` is added to the string with the new line character, `'\n'`.
+
 Then, using the path `/add-message?s=How are you` adds 'how are you' to the string with a new line:
 
 ![How Are You Image](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/HowAreYou.png)
