@@ -2,7 +2,7 @@
 ***
 
 ## Part 1 - Running a Web Server
-StringServer keeps track of a string and allows the user to add new lines to the string with the url path `/add-messages?s=STRING`, where STRING is the added line.
+StringServer keeps track of a string and allows the user to add new lines to the string with the url path `/add-messages?s=STRING`, where `STRING` is the added line, which is appened to the original string with a new line, `'\n'`, character.
 The code iplememnting StringServer is shown below:
 ```
 import java.io.IOException;
