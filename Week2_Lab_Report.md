@@ -59,9 +59,19 @@ The string `s=Hello` is then split into the strings `s` and `Hello` using the me
 
 ***
 
-Now, using the path `/add-message?s=How are you` adds 'how are you' to the string with a new line:
+Now, the path `/add-message?s=How are you` adds 'how are you' to the string with a new line:
 
 ![How Are You Image](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/HowAreYou.png)
+
+The method `handleRequest(URI url)` is called again, with url now containing the new path.
+
+`url.getPath()` now returns the new path, `/add-message?s=How are you`.
+
+`url.getQuery` now returns the string in the path after the question mark, `s=How are you`, which is split into the `parameters` array.
+
+The string `How are you` followed by a new line character `'\n'` is then added to the string containing `"Hello"+'\n'`.
+
+The result is two lines, with "Hello" and "How are you".
 
 ## Part 2 - Debugging and Testing Code
 
