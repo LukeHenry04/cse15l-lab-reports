@@ -83,14 +83,21 @@ The result is two lines, with "Hello" and "How are you".
 
 The program `ArrayExamples.java` contained bugs in the `int[] reversed(int[] arr)` method.
 
-A faliure inducing imput, as a JUnit test, is:
+A faliure inducing input, as a JUnit test, is:
 
 ```
 int[] input2 = {1, 2, 3, 4};
 assertArrayEquals(new int[]{4, 3, 2, 1}, ArrayExamples.reversed(input2));
 ```
 
-This test fails, giving the result
+An input that doesn't incude failiure, as a JUnit test, is:
+
+```
+int[] input1 = { };
+assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+```
+
+Running both tests fails the first test, giving the result:
 
 ![ScreenshotTerminal](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/TerminarError.png)
 
