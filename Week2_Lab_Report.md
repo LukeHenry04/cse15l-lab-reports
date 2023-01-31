@@ -128,9 +128,6 @@ After fixing the bug, the code is now:
   }
 ```
 
-
-
-
-
-
 ## Part 3 - What I Learned
+
+One important thing I learned in lab during week 2 was running web servers both locally and remotely. I did not know how servers  
