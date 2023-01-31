@@ -45,16 +45,16 @@ class StringServer {
 
 ***
 
-The path `/add-message?s=Hello` adds 'Hello' to the string:
+The url path and query `/add-message?s=Hello` adds 'Hello' to the string:
 
 
 ![Hello Image](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/Hello.png)
 
-The method `handleRequest(URI url)` is called, where `url` is an object that contains the path of the url.
+The method `handleRequest(URI url)` is called, where `url` is an object that contains the domain, path, and query of the url shown above.
 
-The path is acessed via the method `url.getPath()` which returns the string `"/add-message?s=Hello"`
+The path is acessed via the method `url.getPath()` which returns the string `"/add-message"`
 
-If the path contains `"/add-message"`, which it does in this case, the method `url.getQuery() is used to get the part of the path after the `"?"`, in this case it returns `"s=Hello"`.
+If the path contains `"/add-message"`, which it does in this case, the method `url.getQuery() is used to get the part of the url after the `"?"`, in this case it returns `"s=Hello"`.
 
 The string `"s=Hello"` is then split into the strings `"s"` and `"Hello"` using the method `.split("=")` and stored as elements `0` and `1` of the string array `parameters`
 
@@ -62,14 +62,14 @@ The string `"s=Hello"` is then split into the strings `"s"` and `"Hello"` using 
 
 ***
 
-Now, the path `/add-message?s=How are you` adds 'How are you' to the string with a new line:
+Now, this url path and query `/add-message?s=How are you` adds 'How are you' to the string with a new line:
 
 
 ![How Are You Image](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/HowAreYou.png)
 
-The method `handleRequest(URI url)` is called again, with url now containing the new path.
+The method `handleRequest(URI url)` is called again, with url now containing the domain, path, and query of the new url above.
 
-`url.getPath()` now returns the new path, `"/add-message?s=How are you"`.
+`url.getPath()` now returns the new path, `"/add-message"`.
 
 `url.getQuery` now returns the string in the path after the question mark, `"s=How are you"`, which is split into the `parameters` array.
 
