@@ -92,7 +92,7 @@ assertArrayEquals(new int[]{4, 3, 2, 1}, ArrayExamples.reversed(input2));
 
 This test fails, giving the result
 
-![image](https://user-images.githubusercontent.com/122486212/215660167-c9331d3e-14e5-4c02-83f0-a57ad3139a79.png)
+![ScreenshotTerminal](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/TerminarError.png)
 
 
 
