@@ -47,6 +47,7 @@ class StringServer {
 
 The path `/add-message?s=Hello` adds 'Hello' to the string:
 
+
 ![Hello Image](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/Hello.png)
 
 The method `handleRequest(URI url)` is called, where `url` is an object that contains the path of the url.
@@ -62,6 +63,7 @@ The string `"s=Hello"` is then split into the strings `"s"` and `"Hello"` using 
 ***
 
 Now, the path `/add-message?s=How are you` adds 'How are you' to the string with a new line:
+
 
 ![How Are You Image](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/HowAreYou.png)
 
