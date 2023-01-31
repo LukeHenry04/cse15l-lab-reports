@@ -26,7 +26,20 @@ Once git is installed, open the Visual Studio Code terminal and open a **git bas
 
 ![Screenshot of git bash terminal](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/VS_GitBash.png)
 
-Next run run the command `$ ssh cs15lwi23zz@ieng6.ucsd.edu`, repacing '**zz**' with the last letters of your course username:
+Next, you will need find your CSE15L account. You can look up your account [**Here**](https://sdacs.ucsd.edu/~icc/index.php).
+
+![Account Lookup](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/AccountLookup.png)
+
+Click on the **Cse15lwi23--** account under **Additional Accounts**. Then click **Change Password**:
+
+![Password change](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/AccountPasswordChange.png)
+
+Change your course password to a strong complex password that meets the requirements.
+
+***
+Next, in Visual Studio Code:
+
+Run the command `$ ssh cs15lwi23zz@ieng6.ucsd.edu`, repacing '**zz**' with the last letters of your course username:
 
 ![Terminal login command image](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/VS_RemoteLogin.png)
 
