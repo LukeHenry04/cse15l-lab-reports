@@ -42,9 +42,9 @@ class StringServer {
     }
 }
 
-***
-
 ```
+
+***
 
 The path `/add-message?s=Hello` adds 'Hello' to the string:
 
