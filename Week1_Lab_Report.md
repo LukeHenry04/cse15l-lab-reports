@@ -47,7 +47,7 @@ Run the command `$ ssh cs15lwi23zz@ieng6.ucsd.edu`, repacing '**zz**' with the l
 
 Next enter your password. 
 
-You may recieve the confiration message below:
+You may recieve the authentification message below:
 ```
 ⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
