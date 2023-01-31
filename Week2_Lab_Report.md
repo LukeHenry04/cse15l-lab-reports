@@ -41,6 +41,7 @@ class StringServer {
         Server.start(port, new StringHandler());
     }
 }
+***
 ```
 
 The path `/add-message?s=Hello` adds 'Hello' to the string:
@@ -55,7 +56,7 @@ If the path contains `"/add-message"`, which it does in this case, the method `u
 
 The string `"s=Hello"` is then split into the strings `"s"` and `"Hello"` using the method `.split("=")` and stored as elements `0` and `1` of the string array `parameters`
 
-`"Hello"` is then added to the string with the new line character, `'\n'`. 
+`"Hello"` is then added to the main string `text` with the new line character, `'\n'`. 
 
 ***
 
@@ -69,7 +70,7 @@ The method `handleRequest(URI url)` is called again, with url now containing the
 
 `url.getQuery` now returns the string in the path after the question mark, `"s=How are you"`, which is split into the `parameters` array.
 
-The string `"How are you"` followed by a new line character `'\n'` is then added to the original string containing `"Hello"+'\n'`.
+The string `"How are you"` followed by a new line character `'\n'` is then added to the main string `text` containing `"Hello"+'\n'`.
 
 The result is two lines, with "Hello" and "How are you".
 
