@@ -117,7 +117,7 @@ Before the code was:
     return arr;
   }
 ```
-After, the code is now:
+After fixing the bug, the code is now:
 ```
  static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
