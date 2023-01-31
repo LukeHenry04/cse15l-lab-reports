@@ -49,27 +49,27 @@ The path `/add-message?s=Hello` adds 'Hello' to the string:
 
 The method `handleRequest(URI url)` is called, where `url` is an object that contains the path of the url.
 
-The path is acessed via the method `url.getPath()`.
+The path is acessed via the method `url.getPath()` which returns the string `"/add-message?s=Hello"`
 
-If the path contains `/add-message`, which it does in this case, the method `url.getQuery() is used to get the part of the path after the `?`, in this case `s=Hello`.
+If the path contains `"/add-message"`, which it does in this case, the method `url.getQuery() is used to get the part of the path after the `"?"`, in this case it returns `"s=Hello"`.
 
-The string `s=Hello` is then split into the strings `s` and `Hello` using the method `.split("=")` and stored as elements 0 and 1 of the array `parameters`
+The string `"s=Hello"` is then split into the strings `"s"` and `"Hello"` using the method `.split("=")` and stored as elements `0` and `1` of the string array `parameters`
 
-`Hello` is then added to the string with the new line character, `'\n'`. 
+`"Hello"` is then added to the string with the new line character, `'\n'`. 
 
 ***
 
-Now, the path `/add-message?s=How are you` adds 'how are you' to the string with a new line:
+Now, the path `/add-message?s=How are you` adds 'How are you' to the string with a new line:
 
 ![How Are You Image](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/HowAreYou.png)
 
 The method `handleRequest(URI url)` is called again, with url now containing the new path.
 
-`url.getPath()` now returns the new path, `/add-message?s=How are you`.
+`url.getPath()` now returns the new path, `"/add-message?s=How are you"`.
 
-`url.getQuery` now returns the string in the path after the question mark, `s=How are you`, which is split into the `parameters` array.
+`url.getQuery` now returns the string in the path after the question mark, `"s=How are you"`, which is split into the `parameters` array.
 
-The string `How are you` followed by a new line character `'\n'` is then added to the string containing `"Hello"+'\n'`.
+The string `"How are you"` followed by a new line character `'\n'` is then added to the original string containing `"Hello"+'\n'`.
 
 The result is two lines, with "Hello" and "How are you".
 
