@@ -18,7 +18,9 @@ Click **Terminal** --> **New Terminal**. You'll be using the terminal to remotel
 ![Screenshot of VS Code Terminal](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/VS_CodeTerminal.png)
 
 ## Remotely Connecting
-In order to remotely connect on Windows, you will need to install git. You can download [**Git for Windows** here](https://gitforwindows.org/), then run the installer. 
+In order to remotely connect on Windows, you will need to install git. If you do not have Windows, you do not need to intall git or open a git bash terminal. Mac and Linux users can skip this step.
+
+You can download [**Git for Windows** here](https://gitforwindows.org/), then run the installer. 
 
 Once git is installed, open the Visual Studio Code terminal and open a **git bash** terminal using the dropdown menu next to the '**+**' icon (see image below):
 
