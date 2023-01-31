@@ -32,7 +32,7 @@ Next, you will need find your CSE15L account. You can look up your account [**He
 
 ![Account Lookup](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/AccountLookup.png)
 
-Click on the **Cse15lwi23--** account under **Additional Accounts**. Then click **Change Password**:
+Click on the **Cs15lwi23--** account under **Additional Accounts**. Then click **Change Password**:
 
 ![Password change](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/AccountPasswordChange.png)
 
