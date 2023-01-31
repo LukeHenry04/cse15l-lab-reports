@@ -26,6 +26,8 @@ Once git is installed, open the Visual Studio Code terminal and open a **git bas
 
 ![Screenshot of git bash terminal](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/VS_GitBash.png)
 
+***
+
 Next, you will need find your CSE15L account. You can look up your account [**Here**](https://sdacs.ucsd.edu/~icc/index.php).
 
 ![Account Lookup](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/AccountLookup.png)
