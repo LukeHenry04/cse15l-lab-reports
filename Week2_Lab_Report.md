@@ -103,6 +103,32 @@ Running both tests fails the first test, giving the result:
 
 Where the symptom is that the first element of the returned array is `0`, when it should be `4`.
 
+The bug was that, in the line `arr[i] = newArray[arr.length - i - 1];`, `arr` and `newArray` are switched, so that the elements of the initial array are changed, and set to 0, the elements of the new empty array. It also returns the original array instead of the new array in the line `return arr`. 
+
+The code change needed to fix the bug was switching `arr` and `newArray` and returning `newArray`.
+
+Before the code was:
+```
+ static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+After, the code is now:
+```
+ static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+```
+
+
 
 
 
