@@ -46,7 +46,8 @@ class StringServer {
 The path `/add-message?s=Hello` adds 'Hello' to the string:
 
 ![Hello Image](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/Hello.png)
-The method `handleRequest(URI url)` is called, where `url` is an object that contains the path of the url, which is acess via the method `url.getPath()`.
+
+The method `handleRequest(URI url)` is called, where `url` is an object that contains the path of the url, which is acess via the method `url.getPath()`. If the path contains `/add-message`, which it does in this case, the method `url.getQuery() is used to get the part of the path after the `?`, in this case `s=Hello`, which is split into the strings `s` and `Hello` using the method `.split("=")`
 
 Then, using the path `/add-message?s=How are you` adds 'how are you' to the string with a new line:
 
