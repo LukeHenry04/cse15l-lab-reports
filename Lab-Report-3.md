@@ -30,6 +30,7 @@ To find the number of lines containing the word "as" in `./written_2/non-fiction
 - `As"`
 - `"aS"`
 - and `"as"`.
+
 The command returns the number 59, so there are 59 lines with the word "as" in any case. 
 
 ***
@@ -42,4 +43,8 @@ If you want to find the number of lines in each file in `./written_2/travel_guid
 
 ***
 
-The commmand `grep -o`, for **only matching**, 
+The commmand `grep -o`, for **only matching**, returns only the parts of a file that contain the given pattern. It can be used to search for specific words or phrases so that even if they occur multiple times on the same line, they are still counted for each time they appear. 
+
+For example, the command `grep -o "Nepal" ./written_2/travel_guides/berlitz2/Nepal-WhatToDo.txt` returns a list containg the word "Nepal" several times. This is because the command is returning only the parts of the file that match the string `"Nepal"`. To count how many times the string `"Nepal"` is in the file `./written_2/travel_guides/berlitz2/Nepal-WhatToDo.txt`, you can use the command `grep -c -o "Nepal" ./written_2/travel_guides/berlitz2/Nepal-WhatToDo.txt`. his command returns the number 24. So the string `"Nepal"` occurs 24 times in the file. This is different than the command without the `-o` because that would only show the number of lines containing the string, which is different if the string occurs multiple times in the same line. 
+
+You could count how many times each file in `./written_2` contains the word "government", not case sensisitive in case it is at the start of a sentence, by using the command `grep -c -r -o -i "government" ./written_2`. This returns a list of all files in any directories of `./written_2` with a count of how many times the files contains the word "government", as a string in any case.
