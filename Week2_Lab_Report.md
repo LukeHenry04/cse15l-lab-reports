@@ -46,8 +46,7 @@ class StringServer {
 
 ***
 
-The url path and query `/add-message?s=Hello` adds 'Hello' to the string:
-
+The url path and query `/add-message?s=Hello` adds the string after `"s="`, in this case `Hello`, to the string:
 
 ![Hello Image](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/Hello.png)
 
@@ -63,7 +62,7 @@ The string `"s=Hello"` is then split into the strings `"s"` and `"Hello"` using 
 
 ***
 
-Now, this url path and query `/add-message?s=How are you` adds 'How are you' to the string with a new line:
+A different url path can be used to add different strings. Changing the string after `"s="` to `How are you` makes the url path and query: `/add-message?s=How are you`, which now adds 'How are you' to the string, `text`, with a new line. The result is a string containing two lines, one with the initial `Hello` and the second with the line `How are you`, shown below:
 
 
 ![How Are You Image](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/HowAreYou.png)
