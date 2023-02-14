@@ -59,4 +59,10 @@ The commmand `grep -o`, for **only matching**, returns only the parts of a file 
 
 For example, the command `grep -o "Nepal" ./written_2/travel_guides/berlitz2/Nepal-WhatToDo.txt` returns a list containg the word "Nepal" several times. This is because the command is returning only the parts of the file that match the string `"Nepal"`. To count how many times the string `"Nepal"` is in the file `./written_2/travel_guides/berlitz2/Nepal-WhatToDo.txt`, you can use the command `grep -c -o "Nepal" ./written_2/travel_guides/berlitz2/Nepal-WhatToDo.txt`. his command returns the number 24. So the string `"Nepal"` occurs 24 times in the file. This is different than the command without the `-o` because that would only show the number of lines containing the string, which is different if the string occurs multiple times in the same line. 
 
+![grep -r example command](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/grepO1.png)
+
+![grep -r -c example](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/grepO2.png)
+
 You could count how many times each file in `./written_2` contains the word "government", not case sensisitive in case it is at the start of a sentence, by using the command `grep -c -r -o -i "government" ./written_2`. This returns a list of all files in any directories of `./written_2` with a count of how many times the files contains the word "government", as a string in any case.
+
+![grep -r -i -c -o example](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/grepORIC.png)
