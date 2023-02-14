@@ -31,7 +31,7 @@ For example, if you wanted to find the lines containing the strings `"the"`, `"T
 
 To find the number of lines containing the word "as" in `./written_2/non-fiction/OUP/Fletcher/ch1.txt`, you could use the command `grep -c -i "as" ./written_2/non-fiction/OUP/Fletcher/ch1.txt`. `-c` returns only the number of lines, and `-i` searches regardless of capitalization, for the strings:
 - `"AS"`
-- `As"`
+- `"As"`
 - `"aS"`
 - and `"as"`.
 
