@@ -99,7 +99,7 @@ assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
 
 Running both tests fails the first test, giving the result:
 
-![ScreenshotTerminal](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/TerminarError.png)
+![ScreenshotTerminal](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/TerminarErrorFull.png)
 
 Where the symptom is that the first element of the returned array is `0`, when it should be `4`.
 
