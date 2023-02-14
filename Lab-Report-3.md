@@ -25,7 +25,7 @@ The command `grep -c`, for **count**, returns only the number of lines in a file
 
 The command `grep -i`, for **ignore case**, returns the lines in a file containing a given pattern, regardless of case.
 
-For example, if you wanted to find the lines containing the strings `"the"`, `"The"`, `"THE"`, or any other capitalization of the word "the", in the file `./written_2/travel_guides/berlitz2/Cuba-History.txt`, then using `grep "the"` will not work because it will count lines containing `"the"` but not `"The"`. Using the command `grep -i "the" ./written_2/travel_guides/berlitz2/Cuba-History.txt' will return all of the lines with any capitalization of the word.
+For example, if you wanted to find the lines containing the strings `"the"`, `"The"`, `"THE"`, or any other capitalization of the word "the", in the file `./written_2/travel_guides/berlitz2/Cuba-History.txt`, then using `grep "the"` will not work because it will count lines containing `"the"` but not `"The"`. Using the command `grep -i "the" ./written_2/travel_guides/berlitz2/Cuba-History.txt` will return all of the lines with any capitalization of the word.
 
 To find the number of lines containing the word "as" in `./written_2/non-fiction/OUP/Fletcher/ch1.txt`, you could use the command `grep -c -i "as" ./written_2/non-fiction/OUP/Fletcher/ch1.txt`. `-c` returns only the number of lines, and `-i` searches regardless of capitalization, for the strings:
 - `"AS"`
