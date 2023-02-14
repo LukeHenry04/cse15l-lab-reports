@@ -15,9 +15,9 @@ Using the command `grep --help` in Windows, or `man grep` on other operating sys
  
 The command `grep -c`, for **count**, returns only the number of lines in a file containing a given patter. 
 
-For example, to get only the number of lines containing the string `"Italy"` in the file `./written_2/travel_guides/berlitz1/WhereToItaly.txt`, you could run the command `grep -c "Italy" ./written_2/travel_guides/berlitz1/WhereToItaly.txt`. This command returns only the number `78`, so there are 78 lines containing the string `"Italy"`.
+- For example, to get only the number of lines containing the string `"Italy"` in the file `./written_2/travel_guides/berlitz1/WhereToItaly.txt`, you could run the command `grep -c "Italy" ./written_2/travel_guides/berlitz1/WhereToItaly.txt`. This command returns only the number `78`, so there are 78 lines containing the string `"Italy"`.
 
-To get the number of lines containing `"Napoleon"` in `./written_2/travel_guides/berlitz1/HistoryFrance.txt`, you can run the command `grep -c "Napoleon" ./written_2/travel_guides/berlitz1/HistoryFrance.txt`. This command returns the number 9, so there are 9 lines containing the string `"Napoleon"`.
+- To get the number of lines containing `"Napoleon"` in `./written_2/travel_guides/berlitz1/HistoryFrance.txt`, you can run the command `grep -c "Napoleon" ./written_2/travel_guides/berlitz1/HistoryFrance.txt`. This command returns the number 9, so there are 9 lines containing the string `"Napoleon"`.
 
 ![Grep -c examples](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/grepC.png)
 
