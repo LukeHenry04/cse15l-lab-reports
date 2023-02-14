@@ -19,6 +19,8 @@ For example, to get only the number of lines containing the string `"Italy"` in 
 
 To get the number of lines containing `"Napoleon"` in `./written_2/travel_guides/berlitz1/HistoryFrance.txt`, you can run the command `grep -c "Napoleon" ./written_2/travel_guides/berlitz1/HistoryFrance.txt`. This command returns the number 9, so there are 9 lines containing the string `"Napoleon"`.
 
+![Grep -c examples](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/grepC.png)
+
 ***
 
 The command `grep -i`, for **ignore case**, returns the lines in a file containing a given pattern, regardless of case.
