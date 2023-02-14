@@ -45,7 +45,13 @@ The command `grep -r`, for **recursive**, returns the lines containing a given p
 
 For example, to get all lines in `./written_2` containing the string `"Cuba"`, you could use the command `grep -r "Cuba" ./written_2`. This returns a list of lines for each file in `./written_2` and in all of its directories containing the string `"Cuba"`. 
 
+![grep -r example](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/grepR.png)
+
 If you want to find the number of lines in each file in `./written_2/travel_guides` containing the word "vacation", not case sensitive, you can use the command `grep -c -i -r "vacation" ./written_2/travel_guides`. This command returns a list containing every file in `./written_2/travel_guides` and in its directories with a count of how many lines contain the non-case sensitive word "vacation".
+
+![grep -r -i -c example command](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/grepRIC1.png)
+
+![grep -r -i -c example non-zero outputs](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/grepRIC2.png)
 
 ***
 
