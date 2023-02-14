@@ -58,7 +58,7 @@ If the path contains `"/add-message"`, which it does in this case, the method `u
 
 The string `"s=Hello"` is then split into the strings `"s"` and `"Hello"` using the method `.split("=")` and stored as elements `0` and `1` of the string array `parameters`
 
-`"Hello"` is then added to the main string `text` with the new line character, `'\n'`. 
+`"Hello"` is then added to the main string `text` with the new line character, `'\n'`, as shown in the above screenshot. 
 
 ***
 
@@ -75,7 +75,7 @@ The method `handleRequest(URI url)` is called again, with url now containing the
 
 The string `"How are you"` followed by a new line character `'\n'` is then added to the main string `text` containing `"Hello"+'\n'`.
 
-The result is two lines, with "Hello" and "How are you".
+The result is two lines, with "Hello" and "How are you", shown in the screenshot above.
 
 ***
 
