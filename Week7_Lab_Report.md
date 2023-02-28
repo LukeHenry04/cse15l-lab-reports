@@ -24,7 +24,7 @@ The command `cd lab7` was then 4th in my history, so I pressed `<up>` 4 times an
 
 ## Step 6) Run the tests, demonstrating that they fail
 
-Keys pressed: `<up><up><up><up><up><up><up><up><up><up><up><enter>`, `<up><up><up><up><up><up><up><up><up><up><up><enter>`
+Keys pressed: `<up>`**x11**`<enter>`, `<up>`**x11**`<enter>`
 
 The command `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` was 11th in my history so I pressed `<up>` 11 times and ran it.
 
@@ -36,7 +36,7 @@ The result shows 1 test failed.
 
 ## Step 7) Edit the code file to fix the failing test
 
-Keys pressed: `<up>`x15`<enter>`, `<a><backspace><backspace><2><space>`, `<esc><:><w><q><enter>`
+Keys pressed: `<up>`**x15**`<enter>`, `a<backspace><backspace>2<space>`, `<esc>:wq<enter>`
 
 The command `vim ListExamples.java` was then 15th in my history, so I used `<up>` 15 times and ran it.
 
