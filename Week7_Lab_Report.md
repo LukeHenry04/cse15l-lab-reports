@@ -14,7 +14,7 @@ Image of ssh log in command
 
 ## Step 5) Clone your fork of the repository from your Github account
 
-Keys pressed: `<up><up><up><up><enter>` `<up><up><up><up><enter>`
+Keys pressed: `<up><up><up><up><enter>`, `<up><up><up><up><enter>`
 
 The command `git clone git@github.com:LukeHenry04/lab7.git` was 4th in my command history, so I used `<up>` 4 times to find it and then ran it.
 
@@ -24,7 +24,7 @@ Image of git clone command
 
 ## Step 6) Run the tests, demonstrating that they fail
 
-Keys pressed: `<up><up><up><up><up><up><up><up><up><up><up><enter>` `<up><up><up><up><up><up><up><up><up><up><up><enter>`
+Keys pressed: `<up><up><up><up><up><up><up><up><up><up><up><enter>`, `<up><up><up><up><up><up><up><up><up><up><up><enter>`
 
 The command `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` was 11th in my history so I pressed `<up>` 11 times and ran it.
 
@@ -60,4 +60,14 @@ Image of passed tests
 
 ## Step 9) Commit and push the resulting change to your Github account
 
+Keys pressed: `<up>`x14`<enter>`, `<up>`x14`<enter>`, `<up>`x14`<enter>`
 
+The command `git add ListExamples.java` was 14th in my history, so I pressed `<up>` 14 times and ran it.
+
+The command `git commit -m "fixed error in ListExamples.java"` was then 14th in my history, so I pressed `<up>` 14 times and ran it.
+
+Then the command `git push` was 14th, so I again pressed `<up>` 14 times and ran it.
+
+This added the file ListExamples.java and commited it, then pushed the commit to the github repository fork.
+
+Image of github commands
