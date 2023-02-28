@@ -2,7 +2,7 @@
 
 ***
 
-Steps 1 through 3 were preparation for the following steps:
+(Steps 1 through 3 were preparation for the following steps: )
 
 ## Step 4) Log into ieng6
 
