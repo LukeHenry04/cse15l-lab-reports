@@ -10,7 +10,7 @@ Keys pressed: `<up><enter>`
 
 The command `ssh cs15lwi23akd@ieng6.ucsd.edu` was the last run command in my local terminal, so i pressed the `<up>` to access it.
 
-Image of ssh log in command
+![Image of ssh log in command](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/sshLogIn.png)
 
 ## Step 5) Clone your fork of the repository from your Github account
 
@@ -20,7 +20,7 @@ The command `git clone git@github.com:LukeHenry04/lab7.git` was 4th in my comman
 
 The command `cd lab7` was then 4th in my history, so I pressed `<up>` 4 times and then ran it.
 
-Image of git clone command
+![Image of git clone command](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/gitCloneRepo.png)
 
 ## Step 6) Run the tests, demonstrating that they fail
 
@@ -32,7 +32,7 @@ Then the command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.
 
 The result shows 1 test failed.
 
-Image of running failed tests
+![Image of running failed tests](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/runTests.png)
 
 ## Step 7) Edit the code file to fix the failing test
 
@@ -44,7 +44,7 @@ My cursor's position was already right after the error, so I pressed `<a>` to ed
 
 After edititing, I used `<esc>` and then `:wq` to write the new changes and then exit the `vim` command.
 
-Image of vim command
+![Image of vim command](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/vim.png)
 
 ## Step 8) Run the tests, demonstrating that they now succeed
 
@@ -56,7 +56,7 @@ The command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit
 
 This time, the tests all passed.
 
-Image of passed tests
+![Image of passed tests](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/runTestsPASSED.png)
 
 ## Step 9) Commit and push the resulting change to your Github account
 
@@ -70,4 +70,4 @@ Then the command `git push` was 14th, so I again pressed `<up>` 14 times and ran
 
 This added the file ListExamples.java and commited it, then pushed the commit to the github repository fork.
 
-Image of github commands
+![Image of github commands](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/gitAddCommitPush.png)
