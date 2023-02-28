@@ -2,7 +2,9 @@
 
 ***
 
-## Step 1) Log into ieng6
+Steps 1 through 3 were preparation for the following steps:
+
+## Step 4) Log into ieng6
 
 Keys pressed: `<up><enter>`
 
@@ -10,7 +12,7 @@ The command `ssh cs15lwi23akd@ieng6.ucsd.edu` was the last run command in my loc
 
 Image of ssh log in command
 
-## Step 2) Clone your fork of the repository from your Github account
+## Step 5) Clone your fork of the repository from your Github account
 
 Keys pressed: `<up><up><up><up><enter>` `<up><up><up><up><enter>`
 
@@ -20,7 +22,7 @@ The command `cd lab7` was then 4th in my history, so I pressed `<up>` 4 times an
 
 Image of git clone command
 
-## Step 3) Run the tests, demonstrating that they fail
+## Step 6) Run the tests, demonstrating that they fail
 
 Keys pressed: `<up><up><up><up><up><up><up><up><up><up><up><enter>` `<up><up><up><up><up><up><up><up><up><up><up><enter>`
 
@@ -32,10 +34,30 @@ The result shows 1 test failed.
 
 Image of running failed tests
 
-## Step 4) Edit the code file to fix the failing test
+## Step 7) Edit the code file to fix the failing test
 
 Keys pressed: `<up>`x15`<enter>`, `<a><backspace><backspace><2><space>`, `<esc><:><w><q><enter>`
 
 The command `vim ListExamples.java` was then 15th in my history, so I used `<up>` 15 times and ran it.
 
-My cursor's position was already right after the error, so I pressed `<a>` to edit at the cursor position
+My cursor's position was already right after the error, so I pressed `<a>` to edit at the cursor position, then editited `index1` to `index2` in ListExamples.java.
+
+After edititing, I used `<esc>` and then `:wq` to write the new changes and then exit the `vim` command.
+
+Image of vim command
+
+## Step 8) Run the tests, demonstrating that they now succeed
+
+Keys pressed: `<up><up><up><enter>`
+
+The command `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` was 3rd in my history, so I pressed `<up>` 3 times and ran it.
+
+The command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` was then 3rd in my history so I pressed `<up>` 3 times and ran it.
+
+This time, the tests all passed.
+
+Image of passed tests
+
+## Step 9) Commit and push the resulting change to your Github account
+
+
