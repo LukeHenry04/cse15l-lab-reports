@@ -40,7 +40,7 @@ Keys pressed: `<up>`**x15**`<enter>`, `a<backspace><backspace>2<space>`, `<esc>:
 
 The command `vim ListExamples.java` was then 15th in my history, so I used `<up>` 15 times and ran it.
 
-My cursor's position was already right after the error, so I pressed `a` to edit at the cursor position, then editited `index1` to `index2` in ListExamples.java.
+My cursor's position was already right after the error, so I pressed `a` to edit at the cursor position, then edited `index1` to `index2` in ListExamples.java.
 
 After edititing, I used `<esc>` and then `:wq` to write the new changes and then exit the `vim` command.
 
