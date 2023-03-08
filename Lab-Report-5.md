@@ -38,7 +38,7 @@ Now, the only commands I need to run are:
 
 - `ssh cs15lwi23akd@ieng6.ucsd.edu` in my local terminal
 - `bash challenge.sh`
-- and the keys `a<backspace>2<esc>:wq` to edit the file.
+- and the keys `a<backspace><backspace>2<esc>:wq` to edit the file.
 
 The process now looks like this:
 
@@ -64,7 +64,7 @@ It then runs the command `vim ListExamples.java` and waits for me to edit the co
 
 ### Step 3) Edit ListExamples.java
 
-Keys pressed:  `a<backspace>2<esc>:wq<enter>`
+Keys pressed:  `a<backspace><backpace>2<esc>:wq<enter>`
 
 I first press `a` to edit the file, then press `<backspace>2` to change `index1` to `index2`.
 
