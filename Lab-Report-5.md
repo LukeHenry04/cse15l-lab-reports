@@ -3,4 +3,5 @@
 
 ***
 
-words
+**Creating a bash script for Lab Report 4**
+
