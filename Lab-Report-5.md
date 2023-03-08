@@ -76,4 +76,5 @@ Then I press `<esc>:wq<enter>` to write to the file and exit the vim command.
 
 ![image of passed tests and commit and push](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/commit.png)
 
+This is much faster than runnning all of the commands manually because I do not need to find them in my command history or even press any keys to run most of them. 
 
