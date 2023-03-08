@@ -5,7 +5,7 @@
 
 **Creating a bash script for Lab Report 4**
 
-The challenge was to complete the following steps as fast as possible:
+The challenge was to complete the following steps as fast as possible, after creating a new fork of the [Lab7 github repo](https://github.com/ucsd-cse15l-w23/lab7):
 
 - Log into ieng6
 - Clone your fork of the repository from your Github account
