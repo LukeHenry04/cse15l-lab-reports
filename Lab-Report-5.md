@@ -48,6 +48,8 @@ Keys pressed: `<up><enter>`
 
 The command `ssh cs15lwi23akd@ieng6.ucsd.edu` was the last command in my history, so I pressed `<up>` and then ran it. 
 
+![image of ssh login](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/SSH.png)
+
 ### Step 2) Run challenge.sh
 
 Keys pressed: `<up><up><up><up><enter>`
@@ -58,6 +60,8 @@ It cloned the github repository, and ran the junit tests in the `lab7/` director
 
 It then runs the command `vim ListExamples.java` and waits for me to edit the code.
 
+![Image of failed tests](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/failures.png)
+
 ### Step 3) Edit ListExamples.java
 
 Keys pressed:  `a<backspace>2<esc>:wq<enter>`
@@ -66,7 +70,10 @@ I first press `a` to edit the file, then press `<backspace>2` to change `index1`
 
 Then I press `<esc>:wq<enter>` to write to the file and exit the vim command. 
 
+![Image of vim editing](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/vim.png)
+
 `challenge.sh` then continues running. It runs the tests again, which now pass, and then commits and pushes the changes to the github repository. 
 
+![image of passed tests and commit and push](https://raw.githubusercontent.com/LukeHenry04/cse15l-lab-reports/main/commit.png)
 
 
