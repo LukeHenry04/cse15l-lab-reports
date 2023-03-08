@@ -40,4 +40,33 @@ Now, the only commands I need to run are:
 - `bash challenge.sh`
 - and the keys `a<backspace>2<esc>:wq` to edit the file.
 
+The process now looks like this:
+
+### Step 1) Log into ieng6
+
+Keys pressed: `<up><enter>`
+
+The command `ssh cs15lwi23akd@ieng6.ucsd.edu` was the last command in my history, so I pressed `<up>` and then ran it. 
+
+### Step 2) Run challenge.sh
+
+Keys pressed: `<up><up><up><up><enter>`
+
+The command `bash challenge.sh` was 4th in my histroy so I pressed `<up>` 4 times and ran it.
+
+It cloned the github repository, and ran the junit tests in the `lab7/` directory, which fail.
+
+It then runs the command `vim ListExamples.java` and waits for me to edit the code.
+
+### Step 3) Edit ListExamples.java
+
+Keys pressed:  `a<backspace>2<esc>:wq<enter>`
+
+I first press `a` to edit the file, then press `<backspace>2` to change `index1` to `index2`.
+
+Then I press `<esc>:wq<enter>` to write to the file and exit the vim command. 
+
+`challenge.sh` then continues running. It runs the tests again, which now pass, and then commits and pushes the changes to the github repository. 
+
+
 
