@@ -19,8 +19,10 @@ After logging into ieng6, I made the bash file `challenge.sh`, with the code:
 ``` 
 git clone git@github.com:LukeHenry04/lab7.git
 cd lab7
+
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+
 vim ListExamples.java
 
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
